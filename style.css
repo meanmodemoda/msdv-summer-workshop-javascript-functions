@@ -1,0 +1,45 @@
+
+html {
+  font-size: 12px;
+  /*font-family: 'Arial', sans-serif;*/
+  max-width: 1200px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+h1 {
+font-family: 'VT323';
+color: green;
+padding: 2rem 0 0 2rem;
+}
+
+h2, h3 {
+font-family: 'Overpass Mono';
+padding: 0 1rem;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+#container {
+  display: inline-flex;
+}
+
+.function {
+  width: 600px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+  padding: 20px 20px;
+  
+}
+
+.review {
+  color: green;
+}
